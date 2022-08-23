@@ -4,7 +4,7 @@ const app = express();
 
 const port = 4040;
 
-async function start() {
+function start() {
   app.use(express.json());
   app.listen(port, () => console.log('Server igång på http://localhost:' + port + '!'));
 }
