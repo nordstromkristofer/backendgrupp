@@ -17,7 +17,7 @@ function start() {
 app.get('/', (req, res) => {
   res.setHeader("Content-Type", "text/html");
   res.status(200);
-  res.send("<h2>Hallå världen</h2>");
+  res.send("<h2>Hallå världen!!!!</h2>");
   res.json({ message: 'livskoll : lever' });
 });
 
